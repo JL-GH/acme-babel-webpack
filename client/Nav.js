@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-const { HashRouter, Link, NavLink, Route, Switch } = ReactRouterDOM;
+import {HashRouter, Link, NavLink, Route, Switch} from 'react-router-dom'
+
+// const { HashRouter, Link, NavLink, Route, Switch} = ReactRouterDOM;
 
 const Nav = ({ people, places, things }) => {
     const links = [
